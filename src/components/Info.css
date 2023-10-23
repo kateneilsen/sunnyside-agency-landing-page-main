@@ -1,0 +1,57 @@
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img-tile{
+    height: 312px;
+  }
+  
+  .text-tile{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 400px;
+  }
+  
+  p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.129px;
+  }
+  
+  .graphic-design{
+    display: grid;
+    padding-block-end: 59px;
+    padding-inline: .25rem;
+    background-image: url("../images/mobile/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+  
+  .content{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-self: flex-end;
+    text-align: center;
+  }
+  
+  .service{
+    display: grid;
+    padding-block-end: 59px;
+    padding-inline: .25rem;
+    background-image: url("../images/mobile/image-photography.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+  

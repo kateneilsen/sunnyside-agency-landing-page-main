@@ -1,0 +1,14 @@
+footer{
+    height: 350px;
+    background-color: #90D4C6;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .logo{
+    width: 170px;
+    height: 33px;
+  }
