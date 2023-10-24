@@ -5,15 +5,16 @@ import Instagram from "../images/icon-instagram.svg";
 import Pinterest from "../images/icon-pinterest.svg";
 import Twitter from "../images/icon-twitter.svg";
 import Logo from "./Logo.jsx";
+import {NavLink} from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer>
         <Logo fill={"#2C7566"} width={"170"} height={"33"}/>
-        <div className={"nav-links"}>
-            <a href={"/"}>About</a>
-            <a href={"/"}>Services</a>
-            <a href={"/"}>Projects</a>
+        <div className={"footer-nav-links"}>
+            <NavLink to={"/about"}>About</NavLink>
+            <NavLink to={"/services"}>Services</NavLink>
+            <NavLink to={"/projects"}>Projects</NavLink>
         </div>
         <div className={"socials"}>
             <a href={"/"}>
