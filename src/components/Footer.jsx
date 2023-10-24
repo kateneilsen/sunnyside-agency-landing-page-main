@@ -9,7 +9,7 @@ import Logo from "./Logo.jsx";
 const Footer = () => {
   return (
     <footer>
-        <Logo fill={"#2C7566"} className={"logo"}/>
+        <Logo fill={"#2C7566"} width={"170"} height={"33"}/>
         <div className={"nav-links"}>
             <a href={"/"}>About</a>
             <a href={"/"}>Services</a>

@@ -1,4 +1,3 @@
-import React from "react";
 import "./Info.css";
 import Transform from "../images/mobile/image-transform.jpg";
 import StandOut from "../images/mobile/image-stand-out.jpg";
@@ -17,7 +16,7 @@ const Info = () => {
             grow fast. Engage your clients through compelling visuals that do
             most of the marketing for you.
           </p>
-          <button>LEARN MORE</button>
+          <button className={"learn-more yellow"}>LEARN MORE</button>
         </div>
       </div>
       <div className="row">
@@ -32,11 +31,11 @@ const Info = () => {
           photographers, videographers, and copywriters, we’ll build and extend
           your brand in digital places.{" "}
         </p>
-        <button>LEARN MORE</button>
+        <button className={"learn-more red"}>LEARN MORE</button>
       </div>
       <div className="graphic-design">
         <div className="content">
-          <h2>Graphic Design</h2>
+          <h2 className={"overlay"}>Graphic Design</h2>
           <p>
             Great design makes you memorable. We deliver artwork that
             underscores your brand message and captures potential clients’
@@ -46,7 +45,7 @@ const Info = () => {
       </div>
       <div className="service">
         <div className="content">
-          <h2>Photography</h2>
+          <h2 className={"overlay"}>Photography</h2>
           <p>
             Increase your credibility by getting the most stunning, high-quality
             photos that improve your business image.

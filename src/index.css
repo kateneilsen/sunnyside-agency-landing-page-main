@@ -49,7 +49,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family: var(--font-headings);
+  font-family: var(--font-display);
   margin: 0;
   padding: 0;
 }
@@ -74,6 +74,6 @@ button{
   --neutral-dark-blue:hsl(232, 10%, 55%);
   --neutral-grayish-blue: hsl(210, 4%, 67%);
   --white: hsl(0, 0%, 100%);
-  --font-headings: 'Fraunces', serif;
+  --font-display: 'Fraunces', serif;
   --font-normal: 'Barlow', sans-serif;
 }

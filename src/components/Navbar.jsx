@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "../images/logo.svg";
 import Menu from "../images/icon-hamburger.svg";
 import "./Navbar.css";
