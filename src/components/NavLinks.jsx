@@ -1,18 +1,19 @@
 import "./NavLinks.css";
+import {Link} from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types,no-unused-vars
 function NavLinks({visible, setVisible}) {
     return (
         <div className={`nav-links ${visible ? "show" : ""}`}>
-            <ul className={!visible ? "" : "show"}>
+            <ul>
                 <li>
-                    <a href={"/"}>About</a>
+                    <Link to={"/about"}>About</Link>
                 </li>
                 <li>
-                    <a href={"/"}>Services</a>
+                    <Link to={"/services"}>Services</Link>
                 </li>
                 <li>
-                    <a href={"/"}>Projects</a>
+                    <Link to={"/projects"}>Projects</Link>
                 </li>
                 <li>
                     <button className={"contact"}>Contact</button>

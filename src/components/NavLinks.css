@@ -1,5 +1,6 @@
 .nav-links{
-    display:  none;
+    opacity: 0;
+    top: 90px;
 }
 
 .nav-links.show{
@@ -10,9 +11,18 @@
     position: fixed;
     top: 110px;
     right: 24px;
+    opacity: 1;
+    animation-name: example;
+    animation-duration: 1s;
+
 }
 
-ul.show{
+@keyframes example {
+    from {top: 90px; opacity: 0}
+    to {top: 110px; opacity: 1}
+}
+
+ul{
     display: flex;
     flex-direction: column;
     list-style-type: none;
@@ -28,7 +38,7 @@ ul.show{
     position: relative;
 }
 
-ul.show::before{
+ul::before{
     content: '';
     background: #FFFCF8;
     width: 24px;

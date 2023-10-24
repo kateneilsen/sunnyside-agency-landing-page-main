@@ -5,24 +5,26 @@ import Instagram from "../images/icon-instagram.svg";
 import Pinterest from "../images/icon-pinterest.svg";
 import Twitter from "../images/icon-twitter.svg";
 import Logo from "./Logo.jsx";
-import {NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer>
-        <Logo fill={"#2C7566"} width={"170"} height={"33"}/>
+        <a  href={"/home"}>
+            <Logo fill={"#2C7566"} width={"170"} height={"33"}/>
+        </a>
         <div className={"footer-nav-links"}>
-            <NavLink to={"/about"}>About</NavLink>
-            <NavLink to={"/services"}>Services</NavLink>
-            <NavLink to={"/projects"}>Projects</NavLink>
+            <Link to={"/about"}>About</Link>
+            <Link to={"/services"}>Services</Link>
+            <Link to={"/projects"}>Projects</Link>
         </div>
         <div className={"socials"}>
-            <a href={"/"}>
+            <button>
                 <img src={Facebook} alt={"facebook"} />
-            </a>
-            <a href={"/"}><img src={Instagram} alt={"instagram"} /></a>
-            <a href={"/"}><img src={Twitter} alt={"twitter"} /></a>
-            <a href={"/"}><img src={Pinterest} alt={"pinterest"} /></a>
+            </button>
+            <button><img src={Instagram} alt={"instagram"} /></button>
+            <button><img src={Twitter} alt={"twitter"} /></button>
+            <button><img src={Pinterest} alt={"pinterest"} /></button>
         </div>
     </footer>
   );

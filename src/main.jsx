@@ -7,12 +7,17 @@ import About from "./Pages/About.jsx";
 import Services from "./Pages/Services.jsx";
 import Projects from "./Pages/Projects.jsx";
 import Contact from "./Pages/Contact.jsx";
+import Home from "./Pages/Home.jsx";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <App />,
+        element: <App/>,
         children: [
+            {
+                path: "home",
+                element: <Home />
+            },
             {
                 path: "about",
                 element: <About />
@@ -31,10 +36,11 @@ const router = createBrowserRouter([
             }
         ]
     },
-])
+    ]
+)
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-      <RouterProvider router={router} />
-  </React.StrictMode>,
+    <React.StrictMode>
+        <RouterProvider router={router}/>
+    </React.StrictMode>,
 )
