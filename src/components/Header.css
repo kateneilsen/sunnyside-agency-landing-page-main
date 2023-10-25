@@ -3,7 +3,7 @@
     background-size: cover;
     background-position-y: bottom;
     background-repeat: no-repeat;
-    min-height: 380px;
+    min-height: 420px;
 }
 
 .copy{
@@ -50,7 +50,7 @@
         background-size: cover;
         background-position-y: 100%;
         background-repeat: no-repeat;
-        min-height: 746px;
+        min-height: 700px;
     }
     .copy{
         font-size: 56px;
