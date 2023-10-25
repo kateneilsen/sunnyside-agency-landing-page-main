@@ -5,3 +5,54 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
+.menu-button{
+    position: relative;
+}
+
+.menu-items{
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+    position: absolute;
+    top: 110px;
+    right: 24px;
+    width: 329px;
+}
+
+.menu-items::before{
+    content: '';
+    background: #FFFCF8;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: -22px;
+    left: 305px;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
+.menu-item{
+    color: #808397;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.143px;
+}
+
+.contact{
+    width: 140px;
+    height: 56px;
+    border-radius: 28px;
+    background: #FBD600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #24303E;
+    text-transform: uppercase;
+    font-family: var(--font-display);
+    font-size: 15px;
+    letter-spacing: -0.107px;
+    line-height: 25px;
+}
