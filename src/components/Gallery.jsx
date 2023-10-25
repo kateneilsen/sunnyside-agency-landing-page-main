@@ -1,4 +1,3 @@
-import { useOutletContext } from "react-router-dom";
 import Milk from "../images/mobile/image-gallery-milkbottles.jpg";
 import Cone from "../images/mobile/image-gallery-cone.jpg";
 import Orange from "../images/mobile/image-gallery-orange.jpg";
