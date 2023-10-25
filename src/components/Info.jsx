@@ -44,26 +44,28 @@ const Info = () => {
 
 
       </div>
+<div className={"services-row"}>
+    <div className="graphic-design">
+        <div className="content">
+            <h2 className={"overlay"}>Graphic Design</h2>
+            <p>
+                Great design makes you memorable. We deliver artwork that
+                underscores your brand message and captures potential clients’
+                attention.
+            </p>
+        </div>
+    </div>
+    <div className="service">
+        <div className="content">
+            <h2 className={"overlay"}>Photography</h2>
+            <p>
+                Increase your credibility by getting the most stunning, high-quality
+                photos that improve your business image.
+            </p>
+        </div>
+    </div>
+</div>
 
-      <div className="graphic-design">
-        <div className="content">
-          <h2 className={"overlay"}>Graphic Design</h2>
-          <p>
-            Great design makes you memorable. We deliver artwork that
-            underscores your brand message and captures potential clients’
-            attention.
-          </p>
-        </div>
-      </div>
-      <div className="service">
-        <div className="content">
-          <h2 className={"overlay"}>Photography</h2>
-          <p>
-            Increase your credibility by getting the most stunning, high-quality
-            photos that improve your business image.
-          </p>
-        </div>
-      </div>
     </>
   );
 };
