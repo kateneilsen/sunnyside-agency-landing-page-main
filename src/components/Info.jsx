@@ -23,7 +23,6 @@ const Info = () => {
                 <img src={Transform} alt="lemon" className={"tile-img"} />
             </picture>
         </div>
-
       </div>
       <div className="row">
           <div className="img-tile">

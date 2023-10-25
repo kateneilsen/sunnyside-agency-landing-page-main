@@ -179,13 +179,16 @@ button.learn-more.red:hover::after{
 }
 
 @media (min-width: 1200px){
+    .services-row{
+        width: 100vw;
+    }
   .graphic-design{
-    flex: .5;
+    width: 50vw;
     background-image: url("../images/desktop/image-graphic-design.jpg");
   }
 
   .service{
-    flex: .5;
+    width: 50vw;
     background-image: url("../images/desktop/image-photography.jpg");
   }
 
