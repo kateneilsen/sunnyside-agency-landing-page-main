@@ -1,20 +1,20 @@
-h3{
+h3 {
     font-size: 16px;
     color: #A7AAAD;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
 
-h4{
+h4 {
     font-size: 18px;
     color: #24303E;
 }
 
-p{
+p {
     color: #24303E;
 }
 
-b{
+b {
     color: #A7AAAD;
     font-size: 14px;
     font-weight: 600;
@@ -22,7 +22,8 @@ b{
     letter-spacing: -0.1px;
     padding-inline: 4.5px;
 }
-.testimonials{
+
+.testimonials {
     padding-block: 64px;
     display: flex;
     flex-wrap: wrap;
@@ -31,23 +32,45 @@ b{
     text-align: center;
     padding-inline: 24px;
     background: #FFFCF8;
-  }
-  
-  .testimonial{
+}
+
+.testimonial {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 32px;
-  }
-  
-  img.portrait{
+}
+
+img.portrait {
     width: 72px;
     height: 72px;
     border-radius: 50%;
-  }
+}
 
-  .name{
-      display: flex;
-      flex-direction: column;
-      gap: 9px;
-  }
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+@media (min-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 800px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .testimonials {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+}
