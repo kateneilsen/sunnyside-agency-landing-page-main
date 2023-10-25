@@ -16,7 +16,6 @@ const Navbar = ({color}) => {
             window.removeEventListener('resize', handleWindowResize);
         }
     })
-
     function getWindowSize(){
         const {innerWidth} = window;
         return innerWidth;

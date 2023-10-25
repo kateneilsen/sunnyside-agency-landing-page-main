@@ -13,9 +13,7 @@ function DesktopNavbar({color, windowSize}) {
                 <Link to={"/about"}>About</Link>
                 <Link to={"/services"}>Services</Link>
                 <Link to={"/projects"}>Projects</Link>
-                <button className={"desktop-contact"}>
-                        CONTACT
-                   </button>
+                <button className={"desktop-contact"}>CONTACT</button>
             </div>
 
 

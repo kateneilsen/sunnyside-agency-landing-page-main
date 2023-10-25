@@ -6,11 +6,10 @@ function App() {
 
   return (
     <>
-        <Navbar color={"#3EBFFF"}/>
+        <Navbar color={"#3EBFFF"} />
         <main>
            <Outlet />
         </main>
-
     </>
   );
 }

@@ -9,9 +9,10 @@
 }
 
 .desktop-contact{
+    position: relative;
     width: 140px;
     height: 56px;
-    background: #FFF;
+    background-color: #FFF;
     border-radius: 28px;
     display: flex;
     align-items: center;
@@ -24,5 +25,6 @@
 }
 
 .desktop-contact:hover{
-    opacity:  0.2537;
+    background-color: rgb(255, 255, 255, 0.2537);
+    color: #FFF;
 }
