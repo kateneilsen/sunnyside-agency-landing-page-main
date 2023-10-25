@@ -6,7 +6,7 @@ import "./Testimonials.css";
 
 const Testimonials = () => {
     return (
-        <section>
+        <div className={"testimonials-container"}>
             <h3>Client Testimonials</h3>
             <div className="testimonials">
                 <div className="testimonial">
@@ -45,7 +45,7 @@ const Testimonials = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 

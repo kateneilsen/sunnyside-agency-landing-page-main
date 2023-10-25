@@ -44,8 +44,7 @@
     }
 }
 
-@media (min-width: 1400px){
-
+@media (min-width: 1200px){
     .header{
         background: url("../images/desktop/image-header.jpg");
         background-size: cover;

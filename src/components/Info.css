@@ -49,7 +49,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-  flex: .5;
 }
 
 .content {
@@ -68,7 +67,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-  flex: .5;
 }
 
 button.learn-more {
@@ -110,21 +108,33 @@ button.learn-more.red::after {
     left: -10px;
 }
 
+button.learn-more.yellow:hover::after{
+  opacity: 0.8;
+}
+
+
+button.learn-more.red:hover::after{
+  opacity: 0.8;
+}
+
 @media (min-width: 768px) {
     h2 {
-        font-size: 40px;
+        font-size: 32px;
         line-height: 1.25;
     }
 
     .img-tile {
+      flex: .5;
         height: 600px;
     }
 
     .tile-img {
-        height: 600px;
+       height: 600px;
     }
 
     .text-tile {
+      display: grid;
+      flex: .5;
         gap: 33px;
         width: 445px;
         padding-block: 0;
@@ -136,18 +146,25 @@ button.learn-more.red::after {
         align-self: center;
     }
 
-    .text-tile h2, p, button{
+    .text-tile h2, p.info, button{
+      max-width: 445px;
+    }
+    p.info{
       max-width: 445px;
     }
 
     .graphic-design{
-      flex: .5;
       background-image: url("../images/desktop/image-graphic-design.jpg");
+      background-position: center;
+      background-size: cover;
+      width: 50%;
     }
 
     .service{
-      flex: .5;
       background-image: url("../images/desktop/image-photography.jpg");
+      background-position: center;
+      background-size: cover;
+      width: 50%;
     }
     .content{
       text-align: center;
@@ -159,4 +176,25 @@ button.learn-more.red::after {
       max-width: 380px;
     }
 
+}
+
+@media (min-width: 1200px){
+  .graphic-design{
+    flex: .5;
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+  }
+
+  .service{
+    flex: .5;
+    background-image: url("../images/desktop/image-photography.jpg");
+  }
+
+  .content{
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 27px;
+    margin-block-start: 0;
+    align-self: flex-end;
+  }
 }

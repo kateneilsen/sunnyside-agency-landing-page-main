@@ -31,3 +31,11 @@ footer{
       color: #458D7E;
       font-size: 18px;
   }
+
+.react-icons{
+    font-size: 24px;
+}
+
+.react-icons:hover{
+    color: white;
+}
