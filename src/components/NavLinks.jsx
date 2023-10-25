@@ -2,7 +2,7 @@ import "./NavLinks.css";
 import {Link} from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types,no-unused-vars
-function NavLinks({visible, setVisible}) {
+function NavLinks({visible}) {
     return (
         <div className={`nav-links ${visible ? "show" : ""}`}>
             <ul>

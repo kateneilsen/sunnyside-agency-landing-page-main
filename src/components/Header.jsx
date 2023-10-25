@@ -4,7 +4,7 @@ import "./Header.css";
 function Header() {
     return (
         <div className="header">
-            <h1 className="copy">WE ARE <br/>CREATIVES</h1>
+            <h1 className="copy">WE ARE CREATIVES</h1>
             <div className="arrow">
                 <img src={Arrow} alt="arrow down" />
             </div>

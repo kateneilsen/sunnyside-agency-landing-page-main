@@ -26,7 +26,7 @@ footer{
       margin-block-start: 88px;
   }
 
-  a{
+.footer-nav-links{
       text-decoration: none;
       color: #458D7E;
       font-size: 18px;
