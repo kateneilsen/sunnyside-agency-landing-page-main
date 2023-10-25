@@ -1,9 +1,5 @@
 //import Logo from "../images/logo.svg";
 import "./Footer.css";
-import Facebook from "../images/icon-facebook.svg";
-import Instagram from "../images/icon-instagram.svg";
-import Pinterest from "../images/icon-pinterest.svg";
-import Twitter from "../images/icon-twitter.svg";
 import Logo from "./Logo.jsx";
 import {Link} from "react-router-dom";
 import {FaSquareFacebook, FaInstagram, FaTwitter, FaPinterest} from "react-icons/fa6"

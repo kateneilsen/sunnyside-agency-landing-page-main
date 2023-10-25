@@ -1,8 +1,8 @@
 
-import Menu from "../images/icon-hamburger.svg";
+import Menu from "../../images/icon-hamburger.svg";
 import "./MobileNavbar.css";
 import NavLinks from "./NavLinks.jsx";
-import Logo from "./Logo.jsx";
+import Logo from "../Logo.jsx";
 
 // eslint-disable-next-line react/prop-types
 const MobileNavbar = ({visible, setVisible, color, windowSize}) => {

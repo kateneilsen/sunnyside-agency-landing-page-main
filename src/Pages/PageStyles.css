@@ -1,0 +1,48 @@
+.section-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-block-start: 3rem;
+}
+
+p.summary{
+    max-width: 50vw;
+}
+
+.container{
+    margin-block-start: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.square{
+    width: 16rem;
+    height: 16rem;
+}
+
+.square.coral{
+    background: #FF6F6C;
+}
+
+.square.yellow{
+    background: #FDD302;
+}
+
+.square.green{
+    background: #9ADACF;
+}
+
+.square.orange{
+    background: #FF9700;
+}
