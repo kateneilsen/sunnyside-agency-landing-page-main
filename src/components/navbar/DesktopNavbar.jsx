@@ -6,7 +6,7 @@ import "./DesktopNavbar.css"
 function DesktopNavbar({color, windowSize}) {
     return (
         <nav style={{background: color}}>
-            <Link to={"/home"}>
+            <Link to={"/"}>
                 <Logo fill={"white"} width={windowSize >= 768 ? "170" : "124"} height={windowSize >= 768 ? "33" : "24"} />
             </Link>
             <div className={"desktop-nav-links"}>

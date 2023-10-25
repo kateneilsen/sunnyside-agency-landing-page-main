@@ -8,7 +8,7 @@ import Logo from "../Logo.jsx";
 const MobileNavbar = ({visible, setVisible, color, windowSize}) => {
   return (
         <nav style={{background: color}}>
-          <a href={"/home"}>
+          <a href={"/"}>
             <Logo fill={"white"} width={windowSize >= 768 ? "170" : "124"} height={windowSize >= 768 ? "33" : "24"} />
           </a>
           <button onClick={() => setVisible(!visible)}>

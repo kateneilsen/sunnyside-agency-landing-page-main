@@ -8,9 +8,9 @@ import {IconContext} from "react-icons";
 const Footer = () => {
   return (
     <footer>
-        <a  href={"/home"}>
+        <Link to={"/"}>
             <Logo fill={"#2C7566"} width={"170"} height={"33"}/>
-        </a>
+        </Link>
         <div className={"footer-nav-links"}>
             <Link to={"/about"}>About</Link>
             <Link to={"/services"}>Services</Link>
